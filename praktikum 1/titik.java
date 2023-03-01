@@ -2,8 +2,8 @@
 // Nim : 24060121140165
 
 class Titik {
-		double absis;
-		double ordinat;
+		int absis;
+		int ordinat;
 		static int counterTitik;
 		
 		Titik(){
@@ -12,28 +12,28 @@ class Titik {
 			counterTitik ++;
 		}	
 		
-		Titik(double a, double o){
+		Titik(int a, int o){
 			absis = a;
 			ordinat= o;
 			counterTitik ++;
 		}	
-		void setAbsis (double a) {
+		void setAbsis (int a) {
 			absis = a;
 			}
 			
-		void setOrdinat (double o) {
+		void setOrdinat (int o) {
 			ordinat = o;
 			}
 		
-		double getAbsis() {
+		int getAbsis() {
 			return absis;
 			}
 			
-		double getOrdinat() {
+		int getOrdinat() {
 			return ordinat;
 			}
 			
-		static double counterTitik(){
+		static int counterTitik(){
 			return counterTitik;
 			}
 }
