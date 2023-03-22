@@ -1,5 +1,6 @@
 // Nama: Nanda Farrel Chevalerie
 // Nim : 24060121140165
+// Deskripsi : representasi dari objek kubus, turunan kelas poligon
 
 package org.bangunruang;
 import org.bangundatar.BujurSangkar;
